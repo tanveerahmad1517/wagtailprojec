@@ -1,0 +1,19 @@
+footer .newsletter {
+    padding: 25px 0 17px;
+}
+h2#result {
+    font-size: 23px;
+    font-weight: normal;
+}
+a.logo {
+    font-size: 25px;
+    font-weight: 700;
+}
+input#email_id {
+    border: 0;
+    background: white;
+    border-radius: 3px 0 0 3px;
+    padding: 10px 20px 8px;
+    float: left;
+    font-family: "proxima-nova",helvetica,arial,sans-serif;
+}

@@ -1,0 +1,25 @@
+<div class="contact">
+    <div class="container">
+        <h2><span>Get in touch</span> about your exciting project</h2>
+        <ul>
+            <li>
+                <a href="tel:{{ settings.home.GlobalSettings.contact_telephone }}">
+                    {% include "home/includes/svg/phone.svg" %}
+                    <span>{{ settings.home.GlobalSettings.contact_telephone }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:{{ settings.home.GlobalSettings.contact_email }}">
+                    {% include "home/includes/svg/envelope.svg" %}
+                    <span>{{ settings.home.GlobalSettings.contact_email }}</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/{{ settings.home.GlobalSettings.contact_twitter }}">
+                    {% include "home/includes/svg/twitter.svg" %}
+                    <span>@{{ settings.home.GlobalSettings.contact_twitter }}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

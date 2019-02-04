@@ -1,0 +1,20 @@
+{% extends "home/base.html" %}
+{% load torchbox_tags wagtailcore_tags wagtailimages_tags staticfiles %}
+
+{% block content %}
+    <main class="page-standard">
+        <section class="container">
+            <div class="main-content">
+                {% include "home/includes/breadcrumb.html" %}
+
+                {% if self.quote %}
+                    <div class="italic">
+                        <p class="hangingindent"> &#8220; {{ self.quote }}&#8221; </p>
+                    </div>
+                {% endif %}
+
+                {% include "home/includes/streamfield.html" with content=page.body %}
+            </div>
+        </section>
+    </main>
+{% endblock %}
