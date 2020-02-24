@@ -2,7 +2,7 @@ ajax==3.0.0
 backcall==0.1.0
 beautifulsoup4==4.6.0
 betterpath==0.2.2
-bleach==2.1.4
+bleach==3.1.1
 boto3==1.9.86
 botocore==1.12.86
 captcha==0.3
