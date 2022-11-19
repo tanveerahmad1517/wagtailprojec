@@ -79,7 +79,7 @@
     "debug": "npm-run-all clean rebuild:css create_dirs sync compile:*:prod -p compile:*:debug watch:*:debug --silent"
   },
   "devDependencies": {
-    "autoprefixer": "^8.2.0",
+    "autoprefixer": "^10.4.13",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
@@ -90,8 +90,8 @@
     "node-sass": "^4.8.3",
     "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0",
-    "postcss-cli": "^5.0.0",
-    "postcss-custom-properties": "^7.0.0",
+    "postcss-cli": "^10.0.0",
+    "postcss-custom-properties": "^13.0.0",
     "sass-lint": "^1.12.1",
     "webpack": "^4.8.1",
     "webpack-cli": "^3.0.3"
