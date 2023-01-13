@@ -94,6 +94,6 @@
     "postcss-custom-properties": "^7.0.0",
     "sass-lint": "^1.12.1",
     "webpack": "^4.8.1",
-    "webpack-cli": "^3.0.3"
+    "webpack-cli": "^3.3.12"
   }
 }
