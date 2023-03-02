@@ -92,7 +92,7 @@
     "onchange": "^3.3.0",
     "postcss-cli": "^5.0.0",
     "postcss-custom-properties": "^7.0.0",
-    "sass-lint": "^1.12.1",
+    "sass-lint": "^1.13.0",
     "webpack": "^4.8.1",
     "webpack-cli": "^3.0.3"
   }
